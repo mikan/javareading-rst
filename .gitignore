@@ -1,0 +1,5 @@
+_build
+.vscode
+*.rst
+!index.rst
+!example.rst
