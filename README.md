@@ -30,7 +30,6 @@ sudo apt install python3-sphinx make
 
 1. `<head>` 内にある全ての `<script>` 、索引・検索・ `custom.css` の `<link>`は不要なので消す
 2. `<head>` 内にある 2 つの CSS の外部リンクのパスにある `_static` を `css` に変える (`javareading.com` サーバーに合わせる)
-3. 提出
 
 ### zip
 
