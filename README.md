@@ -20,6 +20,10 @@ sudo apt install python3-sphinx make
 2. `make html` で HTML をビルドする
 3. `_build/html` に吐かれた HTML をブラウザで開いて確認する (例: `open _build/html/microservice7.html`)
 
+## テンプレ
+
+[example.rst](example.rst) を参照してください。
+
 ## 提出物
 
 ### rst
@@ -46,10 +50,6 @@ zip -j microservice7.zip _build/html/microservice7.html microservice7.rst
 ```
 
 NOTE: `-j` はディレクトリの違いを記録せずにファイルを格納するオプション
-
-## テンプレ
-
-[example.rst](example.rst) を参照してください。
 
 ## License
 
