@@ -24,13 +24,29 @@ sudo apt install python3-sphinx make
 
 ### rst
 
-- そのまま提出
+そのまま
 
 ### html
 
-- `<head>` 内にある全ての `<script>` 、索引・検索・ `custom.css` の `<link>`は不要なので消す
-- 念の為ブラウザで開いて表示を確かめる
-- 提出
+1. `<head>` 内にある全ての `<script>` 、索引・検索・ `custom.css` の `<link>`は不要なので消す
+2. `<head>` 内にある 2 つの CSS の外部リンクのパスにある `_static` を `css` に変える (`javareading.com` サーバーに合わせる)
+3. 提出
+
+### zip
+
+メーリングリストには1度に1ファイルしか添付できないため zip にする
+
+```
+zip -j <TARGET>.zip _build/html/<TARGET>.html <TARGET>.rst
+```
+
+例:
+
+```
+zip -j microservice7.zip _build/html/microservice7.html microservice7.rst
+```
+
+NOTE: `-j` はディレクトリの違いを記録せずにファイルを格納するオプション
 
 ## テンプレ
 
