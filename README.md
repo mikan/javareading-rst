@@ -40,16 +40,8 @@ sudo apt install python3-sphinx make
 メーリングリストには1度に1ファイルしか添付できないため zip にする
 
 ```
-zip -j <TARGET>.zip _build/html/<TARGET>.html <TARGET>.rst
+make zip
 ```
-
-例:
-
-```
-zip -j microservice7.zip _build/html/microservice7.html microservice7.rst
-```
-
-NOTE: `-j` はディレクトリの違いを記録せずにファイルを格納するオプション
 
 ## License
 
